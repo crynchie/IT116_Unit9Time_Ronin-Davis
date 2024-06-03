@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<style src="style.css"></style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Greeting Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <img id="timeImage" src="" alt="Time of day image">
+        <h1 id="greetingMessage"></h1>
+    </div>
+	<div id="description">
+		<p>This page changes its appearance based on the current time of day:</p>
+		<ul>
+			<li><strong>Morning (5am to 12 noon):</strong> Shows a morning image, a "Good Morning!" message, and a gold background color.</li>
+			<li><strong>Afternoon (12 noon to 6pm):</strong> Shows an afternoon image, a "Good Afternoon!" message, and a dark orange background color.</li>
+			<li><strong>Evening (6pm to 11pm):</strong> Shows an evening image, a "Good Evening!" message, and an orange red background color.</li>
+			<li><strong>Night (11pm to 5am):</strong> Shows a night image, a "Good Night!" message, and a dark slate gray background color.</li>
+		</ul>
+		<p>The copyright year updates dynamically based on the current year.</p>
+	</div>	
+    <footer>
+        <p id="copyright"></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
